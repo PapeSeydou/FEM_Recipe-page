@@ -1,0 +1,29 @@
+@media (max-width : 730px) {
+    /* -- Preparations -- */
+    body{
+        background-color: hsl(30, 54%, 90%);
+        padding: 0;
+        margin: 0;
+    }
+    /* -- Layout -- */
+    .container {
+        width: 100%;
+        padding: 32px 32px 32px 32px;
+        border-radius: 0;
+    }
+
+    /* -- Typography -- */
+
+    h1 {
+        font-size: 2.25rem;
+        margin-top: 8px;
+    }
+    /* -- Images -- */
+    .desktop-image{
+        display: none;
+    }
+    .mobile-image {
+        display: inline;
+        width: 100%;
+    }
+}
